@@ -8,7 +8,6 @@ public class TestMain {
 			System.out.println(args[i]);
 		}
 		
-		
 		int edad = 20;
 		int edad2 = 15;
 		int edad3 = 67;
@@ -30,6 +29,8 @@ public class TestMain {
 		for (int i = 0; i < edades.length; i++) {
 			System.out.println(edades[i]);
 		}
+		
+		// [ X  |  |  |X  |  |  ]
 		
 	}
 

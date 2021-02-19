@@ -10,11 +10,10 @@ public class TestArregloReferencias {
 	public static void main(String[] args) {
 		
 		Object[] referencias = new Object[5];
-		
+//                    [ new |cc |null  |null  |null  ]
 		CuentaCorriente cc = new CuentaCorriente(23, 44);
 		
-		//                          [ new |cc |null  |null  |null  ]
-		
+				
 		referencias[1] = cc;
 		
 		Cliente cliente = new Cliente();
