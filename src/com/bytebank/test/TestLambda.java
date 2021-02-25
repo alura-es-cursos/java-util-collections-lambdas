@@ -52,8 +52,8 @@ public static void main(String[] args) {
 	    
 	    // Usando Lambdas
 	    lista.sort((Cuenta o1, Cuenta o2) -> 
-	    	Integer.compare(o1.getNumero(), o2.getNumero()))	
-		)
+	    	Integer.compare(o1.getNumero(), o2.getNumero())	
+		);
 	    
 	    System.out.println("Despues de ordenar");
 	    for (Cuenta cuenta : lista) {
